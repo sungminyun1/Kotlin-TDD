@@ -1,10 +1,12 @@
-package io.hhplus.tdd.point
+package io.hhplus.tdd.service
 
 import io.hhplus.tdd.database.PointHistoryRepositoryImpl
 import io.hhplus.tdd.database.PointHistoryTable
 import io.hhplus.tdd.database.UserPointRepositoryImpl
 import io.hhplus.tdd.database.UserPointTable
-import io.hhplus.tdd.service.PointService
+import io.hhplus.tdd.point.PointHistory
+import io.hhplus.tdd.point.TransactionType
+import io.hhplus.tdd.point.UserPoint
 import io.kotest.assertions.throwables.shouldThrow
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.matchers.shouldBe

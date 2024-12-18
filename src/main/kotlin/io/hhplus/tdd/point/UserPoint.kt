@@ -8,7 +8,7 @@ data class UserPoint(
     val MAX_POINT = 2_000_000L
 
     fun usePoint(amount : Long) : UserPoint {
-        if(amount >= point ){
+        if(amount > point ){
             throw RuntimeException("보유중인 포인트보다 더 많은 양은 사용할 수 없습니다")
         }
 
